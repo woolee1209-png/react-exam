@@ -1,0 +1,49 @@
+
+* { box-sizing: border-box; }
+
+body { margin: 0; font-family: sans-serif; }
+
+a { color: inherit; text-decoration: none; }
+
+.header { display: flex; justify-content: space-between; align-items: center;
+  padding: 16px 24px; background: #222; color: #fff; }
+
+.header h1 { margin: 0; font-size: 20px; color: #fff; }
+
+.header nav { display: flex; gap: 16px; }
+
+main { max-width: 960px; margin: 0 auto; padding: 24px; }
+
+.product-list { display: flex; flex-wrap: wrap; gap: 16px; }
+
+.card { width: calc((100% - 32px) / 3); border: 1px solid #ddd;
+  border-radius: 8px; padding: 16px; text-align: center; }
+
+.card h3 { font-size: 17px; font-weight: 500; }
+
+.category { color: #888; font-size: 13px; }
+
+.price { font-size: 14px; }
+
+.search { width: 300px; padding: 8px; margin: 10px 0;
+  border: 1px solid #ddd; border-radius: 4px; }
+
+.notice-list { list-style: none; padding: 0 40px; text-align: left; }
+
+.notice-list li { padding: 10px 0; border-bottom: 1px solid #eee; }
+
+.notice-id { margin-right: 12px; color: #888; }
+
+.notices { text-align: center; }
+
+.hooks-section { margin-top: 52px; padding-top: 20px; border-top: 1px solid #eee; }
+
+.hooks-section h3 { margin-top: 26px; font-size: 16px; }
+
+.exercise { padding: 8px 0; }
+
+.exercise input { padding: 8px; border: 1px solid #ddd; border-radius: 4px; }
+
+.exercise button { cursor: pointer; }
+
+.hint { font-size: 13px; color: #777; }
